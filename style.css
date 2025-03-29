@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("img/4954772.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center; 
+}
+
+h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+.botaoToxico{
+  font-family:fantasy;
+  width: 34%;
+  height: 30%;
+  gap: 15px;
+  border-radius: 50px;
+  padding: 20px;
+  background-color: #60c7ff;
+  justify-content: center;
+  align-items: center;
+}
+
+#botaoSim {
+    padding: 10px 20px;
+    background-color: #7bc093;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#botaoNao {
+    padding: 10px 20px;
+    background-color: #e4499c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+  
+.pixConteiner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+
+#pixImagem{
+  width: 150px;
+  margin-top: 40px;
+
+}

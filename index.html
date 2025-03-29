@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botão tóxico</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="botaoToxico">
+      <h1>quer me fazer um pix?</h1>
+      <div class="botoes">
+        <button id="botaoSim" onclick="pix()">SIM</button>
+        <button id="botaoNao" onclick="mudarPosicao()">NÃO</button>
+      </div>
+      <div id="pixContainer" style="display: none">
+        <img id="pixImagem" src="img/qrcode.png" alt="QRCode" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
